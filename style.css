@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    display: flex;
+}
+
+/* Added */
+.nav-box p {
+    width: auto;
+}
+
+.nav-box i {
+    padding-left: 10px;
+}
+
+i {
+    width: auto;
+}
+
+.nav-logo {
+    height: 50;
+    width: 100px;
+}
+
+.logo {
+    color: blue;
+    background-position: cover;
+    height: 50px;
+    width: 150%;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-box {
+    display: flex;
+    padding-top: 20px;
+
+    /* Added by Galahad */
+    margin-left: 20px;
+}
+
+.border {
+    border: 1.2px solid transparent;
+    width: 100px;
+}
+
+.border:hover {
+    border: 1.5px solid blue;
+}
+
+.add-icon {
+    margin-left: 4px;
+}
+
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    width: 620px;
+    height: 40px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.search-input {
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(228, 223, 223);
+
+    /* Added */
+    border-radius: 20px;
+}
+
+.search-icon {
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    /* font-size: 1.5rem; */
+    background-color: rgb(24, 24, 197);
+    border-radius: 20px;
+    color: white;
+}
+
+.nav-language {
+    display: flex;
+    margin: 10px;
+    width: auto;
+}
+
+.add-icon2 {
+    display: flex;
+    margin-left: 4px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.box2 {
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
+}
+
+.add-icon3 {
+    margin-left: 4px;
+    padding-top: 15px;
+}
+
+.nav-notification {
+    display: flex;
+    width: auto;
+    color: rgb(24, 24, 197);
+}
+
+.add-icon4 {
+    display: flex;
+    margin-left: 1px;
+    padding-top: 25px;
+    padding-left: 15px;
+
+    width: auto;
+}
+
+.nav-login {
+    display: flex;
+    margin: 10px;
+    width: auto;
+}
+
+.add-icon5 {
+    display: flex;
+    margin-left: 1px;
+    padding-top: 15px;
+    padding-left: 50px;
+    color: rgb(24, 24, 197);
+    width: auto;
+
+}
+
+.box3 {
+    font-size: 1rem;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 5px;
+    width: auto;
+}
+
+.add-icon6 {
+    margin-left: 4px;
+    padding-top: 15px;
+    padding-left: 3px;
+    margin-right: 60px;
+    width: auto;
+}
+
+.panel {
+    display: flex;
+
+}
+
+.panel-ops {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    /* justify-content: space-around; */
+    height: 40px;
+    font-size: 0.85rem;
+}
+
+.panel-ops p {
+    width: auto;
+    padding-left: 20px;
+}
+
+.panel3 {
+    display: flex;
+    width: a;
+}
+
+.panel-ops3 {
+    width: 100%;
+    /* width: auto; */
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 50px;
+    font-size: 0.9rem;
+    padding-left: 800px;
+    justify-content: end;
+    font-weight: bolder;
+    color: black;
+}
+
+.panel-ops3.ul {
+    padding-right: 25px;
+    padding-inline: 60px;
+}
+
+.boxer {
+    background-color: rgb(240, 240, 240);
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.main {
+    height: 600;
+    width: 600;
+    color: black;
+    font-weight: bolder;
+    padding-left: 30px;
+    font-size: 30PX;
+}
+
+.main-msg-header {
+    color: blue;
+    padding-top: 40px;
+    padding-left: 2px;
+    font-size: small;
+
+}
+
+.main1 {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+}
+
+.right {
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 180px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.left {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 100px;
+    width: 10%;
+    background-color: white;
+}
+
+.right img {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.content .c {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#c2 {
+    font-size: 30px;
+    color: blue;
+}
+
+#c1 {
+    opacity: .8;
+}
+
+.left p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.left {
+    border-radius: 5px;
+    width: 190px;
+    height: 120px;
+}
+
+.content2 {
+    border-left: 1px solid rgb(240, 240, 240);
+
+
+}
+
+#mm.content2 {
+    width: 400px;
+}
+
+#c4 {
+    margin-left: 45px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+#c5 {
+    color: blue;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-top: 15px;
+}
+
+.fuse {
+    margin-left: 40px;
+    display: flex;
+}
+
+.fuse i {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#c6 {
+    color: grey;
+    margin-left: 60px;
+    margin-top: 7px;
+}
+
+.ana i {
+    margin-left: 300px;
+    color: blue;
+    font-weight: bolder;
+    margin-right: 2px;
+
+}
+
+
+.progress-container {
+    display: flex;
+    width: 80%;
+    background-color: rgb(234, 235, 234);
+    border: 1px solid #b8b0b0;
+    height: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 100%;
+    background-color: green;
+
+}
+
+.over {
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #484848;
+}
+
+.bbox {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: #3a3a3a;
+}
+.BOX1{
+    display: flex;
+}
+.card {
+    max-width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.card img {
+    width: 90%;
+    height: 180px;
+}
+
+.card-content {
+    padding: 16px;
+    
+}
+
+.card-content h4 {
+    margin-top: 0;
+    margin-top: 10px;
+    color: #5f5d5d;
+}
+
+.card-content p {
+    color: #111111;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card-content h5{
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+.BOX2{
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+
+.BOX2.card{
+    text-align: center;
+    max-width: 5px;
+}
+
+
+.card p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
